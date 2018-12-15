@@ -1,0 +1,13 @@
+<!--pages/login/login.wxml-->
+<view class="fasdfasdf">
+
+  <block wx:if="{{openid !== 'userForTest'}}">
+    <view class="">欢迎！</view>
+  </block>
+
+  <block wx:else>
+    <view class="">您未加入任何群组，点击下方按钮试用其他功能</view>
+    <i-button bind:click="jumpToList" shape="circle" type="primary">试用</i-button>
+  </block>
+
+</view>

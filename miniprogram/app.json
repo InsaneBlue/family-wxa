@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/tabBar/list/list",
+    "pages/tabBar/tool/tool",
+    "pages/tabBar/me/me",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib"
+  ],
+  "window": {
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小小圈",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#aaa",
+    "selectedColor": "#0faaf2",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/list/list",
+        "iconPath": "images/tabBar/list-o.png",
+        "selectedIconPath": "images/tabBar/list.png",
+        "text": "列表"
+      },
+      {
+        "pagePath": "pages/tabBar/tool/tool",
+        "iconPath": "images/tabBar/tool-o.png",
+        "selectedIconPath": "images/tabBar/tool.png",
+        "text": "工具"
+      },
+      {
+        "pagePath": "pages/tabBar/me/me",
+        "iconPath": "images/tabBar/me-o.png",
+        "selectedIconPath": "images/tabBar/me.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
